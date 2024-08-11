@@ -1,16 +1,30 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./Navbar.module.css";
 import { getImageURL } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <nav className={styles.navbar}>
       <a href="/" className={styles.title}>
         My Portfolio
       </a>
-      <div className={styles.menu}>
+      <div className={styles.menu} ref={menuRef}>
         <img
           className={styles.menuBtn}
           src={

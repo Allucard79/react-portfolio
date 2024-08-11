@@ -21,6 +21,11 @@
   display: flex;
 }
 
+.menuBtn {
+  display: none;
+  cursor: pointer;
+}
+
 .menuItems {
   display: flex;
   gap: 45px;
@@ -39,6 +44,10 @@
     align-items: flex-start;
   }
 
+  .menuBtn {
+    display: block;
+  }
+
   .menu {
     position: absolute;
     right: 0;
@@ -49,24 +58,27 @@
     z-index: 3;
   }
 
-  .menuBtn {
-    display: block;
-    cursor: pointer;
-  }
-
   .menuItems {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
     border-radius: 10px;
     background: #484543;
+    opacity: 0;
     padding: 24px 34px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 0;
+    top: 60px;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: -1;
   }
 
   .menuOpen {
-    display: flex;
+    opacity: 1;
+    transform: translateY(0);
     z-index: 1;
   }
 }
