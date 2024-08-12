@@ -101,7 +101,7 @@
   font-family: var(--font-roboto);
   color: var(--color-text);
   margin-bottom: 52px;
-  width: 70%;
+  width: 80%;
 }
 
 .contactBtn {
@@ -109,20 +109,30 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
+  border: solid 2px;
   font-size: 30px;
   font-weight: 600;
   padding: 16px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.contactBtn:hover {
+  border: solid 2px #33d9b2;
+}
+
+.contactBtn:hover span {
+  color: var(--color-text-secondary);
+}
+
 .heroImg {
   display: block;
-  margin: 50px auto 0;
-  width: 50vw;
-  height: 50vw;
-  max-width: 50vh;
-  max-height: 50vh;
+  margin: 250px auto 0;
+  width: 40vw;
+  height: 40vw;
+  max-width: 40vh;
+  max-height: 40vh;
   border-radius: 50%;
+  border: solid 4px #33d9b2;
   z-index: 1;
   transition: transform 0.6s ease-in-out;
   transform-style: preserve-3d;
@@ -185,5 +195,23 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    margin: 25px auto 0;
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .neon {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+    margin-bottom: 52px;
+    width: 90%;
   }
 }

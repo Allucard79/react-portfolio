@@ -34,7 +34,7 @@ export const Hero = () => {
           strategic thinking—qualities that I bring to every project I work on.
         </p>
         <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+          Contact <span>Me</span>
         </a>
       </div>
       <img
