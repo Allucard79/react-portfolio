@@ -1,0 +1,21 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "UBS",
+    "startDate": "Sept, 2023",
+    "endDate": "Present",
+    "experiences": ["Working on web applications", "Creating React components"],
+    "imageSrc": "career/ubs.png"
+  },
+  {
+    "role": "Web Developer",
+    "organisation": "Credit-Suisse",
+    "startDate": "May, 2020",
+    "endDate": "Sept, 2023",
+    "experiences": [
+      "Worked on web applications",
+      "Created SharePoint Custom Solutions"
+    ],
+    "imageSrc": "career/cs.png"
+  }
+]
