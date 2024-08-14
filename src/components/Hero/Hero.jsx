@@ -33,7 +33,7 @@ export const Hero = () => {
           development, scaling a wall requires quick problem-solving skills and
           strategic thinking—qualities that I bring to every project I work on.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:maratajczak@gmail.com" className={styles.contactBtn}>
           Contact <span>Me</span>
         </a>
       </div>
