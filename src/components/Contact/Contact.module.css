@@ -59,7 +59,21 @@
     align-items: center;
   }
 
-  .links {
-    align-items: center;
+  .text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  .text p {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+
+  .link a {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
   }
 }
