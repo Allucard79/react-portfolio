@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Blog",
+    "imageSrc": "projects/blogPage.PNG",
+    "description": "This is a blog about my passion - retro gaming.",
+    "skills": ["React", "Tailwind CSS", "Firebase", "Vite"],
+    "demo": "https://retronook.net/",
+    "source": "https://github.com/Allucard79/Retro-pocket-blog"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Mobile phone shop",
+    "imageSrc": "projects/shoppingCart.png",
+    "description": "This is a project that taught me the basics of React JS. It is a shop page with the ability to add products to the cart.",
+    "skills": ["React", "Bootstrap", "React-testing-library"],
+    "demo": "https://allucard79.github.io/shopping-cart/",
+    "source": "https://github.com/Allucard79/shopping-cart"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Country app",
+    "imageSrc": "projects/countryApp.png",
+    "description": "This is a project made to learn the React JS and Redux by building an app.",
+    "skills": ["React", "Redux", "Bootstrap"],
+    "demo": "https://allucard79.github.io/countryApp/",
+    "source": "https://github.com/Allucard79/countryApp"
   }
 ]
